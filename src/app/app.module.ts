@@ -4,7 +4,7 @@ import { AppComponent } from "./app.component";
 import { CurrentChallengeComponent } from "~/app/challenges/current-challenge/current-challenge.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -14,7 +14,8 @@ import { CurrentChallengeComponent } from "~/app/challenges/current-challenge/cu
         AppComponent
     ],
     imports: [
-        NativeScriptModule
+        NativeScriptModule,
+        NativeScriptFormsModule
     ],
     declarations: [
         AppComponent,
