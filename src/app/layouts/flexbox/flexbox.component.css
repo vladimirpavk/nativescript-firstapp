@@ -1,15 +1,15 @@
 Label {    
     border-width: 3;
-    height:50;     
+    height: 50;     
     width: 50;
     color: white;    
 }
 
-StackLayout{
+FlexBoxLayout{
     border-color: green;
-    border-width: 5;
-    padding: 10;
-    height: 300;
+    border-width: 5;    
+    height: 250;
+    width: 300;
 }
 
 #id1{

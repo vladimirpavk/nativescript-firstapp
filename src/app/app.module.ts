@@ -6,6 +6,7 @@ import { CurrentChallengeComponent } from "~/app/challenges/current-challenge/cu
 // Uncomment and add to NgModule imports if you need to use two-way binding
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { StackedComponent } from "~/app/layouts/stacked/stacked.component";
+import { FlexBoxComponent } from "~/app/layouts/flexbox/flexbox.component";
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -21,7 +22,8 @@ import { StackedComponent } from "~/app/layouts/stacked/stacked.component";
     declarations: [
         AppComponent,
         CurrentChallengeComponent,
-        StackedComponent
+        StackedComponent,
+        FlexBoxComponent
     ],
     providers: [],
     schemas: [
